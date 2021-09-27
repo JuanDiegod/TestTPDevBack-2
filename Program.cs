@@ -1,0 +1,43 @@
+﻿using BackTest.Models;
+using System;
+using System.Collections.Generic;
+
+namespace BackTest
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Teacher!");
+            Console.WriteLine("Please enter the total of students : ");
+            String nEstudiantes = Console.ReadLine();
+
+            Console.WriteLine("Please enter the grades for all the students");
+            for(int i = 1; i < Convert.ToInt32(nEstudiantes) + 1; i++) {
+                for(int n = 1; n < 4; n++)
+                {
+                    Console.WriteLine("Student No " + i + " - Grade No " + n + " : ");
+                    String nota = Console.ReadLine();
+                    Student estudiante = new Student(i, Convert.ToInt32(nota));
+                    if (Student.saveStudentGrade(estudiante))
+                    {
+                        Console.WriteLine("Student No " + i  + " - Grade No " + n + " grade saved correctly");
+                    }
+                }
+                Console.WriteLine("===============================================");
+            }
+            Console.WriteLine("============== AVERAGE GRADES =================");
+            List<Student> students = Student.getStudentAverage();
+            int sum = 0;
+            for(int i = 0; i < students.Count; i++){
+                Console.WriteLine("Student No " + students[i].IdEstudiante + " - Average Grade : " + students[i].Nota);
+                sum += students[i].Nota;
+            }
+
+            Console.WriteLine("===============================================");
+            int result = sum / students.Count;
+            Console.WriteLine("Average grade for the whole class : " + result);
+
+        }
+    }
+}
