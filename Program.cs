@@ -29,9 +29,9 @@ namespace BackTest
             Console.WriteLine("============== AVERAGE GRADES =================");
             List<Student> students = Student.getStudentAverage();
             int sum = 0;
-            for(int i = 0; i < students.Count; i++){
-                Console.WriteLine("Student No " + students[i].IdEstudiante + " - Average Grade : " + students[i].Nota);
-                sum += students[i].Nota;
+            foreach(Student student in students) { 
+                Console.WriteLine("Student No " + student.IdEstudiante + " - Average Grade : " + student.Nota);
+                sum += student.Nota;
             }
 
             Console.WriteLine("===============================================");

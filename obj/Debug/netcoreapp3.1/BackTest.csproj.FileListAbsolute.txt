@@ -18,3 +18,4 @@ E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcore
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.dll
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.pdb
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.genruntimeconfig.cache
+E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.csproj.AssemblyReference.cache
