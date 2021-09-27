@@ -38,6 +38,9 @@ namespace BackTest
             int result = sum / students.Count;
             Console.WriteLine("Average grade for the whole class : " + result);
 
+            Console.WriteLine("Press enter to exit the application, thank you");
+            String resultF = Console.ReadLine();
+
         }
     }
 }

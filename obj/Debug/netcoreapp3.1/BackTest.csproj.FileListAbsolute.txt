@@ -10,7 +10,6 @@ E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\bin\Debug\netcore
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.csproj.AssemblyReference.cache
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.GeneratedMSBuildEditorConfig.editorconfig
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.AssemblyInfoInputs.cache
 E:\Programacion\Proyectos\TestTeleperformance\DevBack\BackTest\obj\Debug\netcoreapp3.1\BackTest.AssemblyInfo.cs
